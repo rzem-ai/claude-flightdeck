@@ -1,6 +1,6 @@
 # Flightdeck
 
-[![Release](https://img.shields.io/github/v/release/scasella/claude-flightdeck)](https://github.com/scasella/claude-flightdeck/releases/latest)
+[![Release](https://img.shields.io/github/v/release/rzem-ai/claude-flightdeck)](https://github.com/rzem-ai/claude-flightdeck/releases/latest)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Claude Code 2.1.287+](https://img.shields.io/badge/Claude%20Code-2.1.287%2B%20mod-d97757.svg)](https://claude.com/blog/claude-code-mods)
 [![Listed on statuslin.es](https://img.shields.io/badge/listed%20on-statuslin.es-c96442)](https://statuslin.es/mods/flightdeck)
@@ -20,7 +20,7 @@
 Inside Claude Code (2.1.287 or later):
 
 ```
-/plugin marketplace add scasella/claude-flightdeck
+/plugin marketplace add rzem-ai/claude-flightdeck
 /plugin install flightdeck@claude-flightdeck
 /reload-plugins
 /flightdeck
@@ -30,14 +30,14 @@ Inside Claude Code (2.1.287 or later):
 <summary><strong>From the terminal, or from a clone</strong></summary>
 
 ```sh
-claude plugin marketplace add scasella/claude-flightdeck
+claude plugin marketplace add rzem-ai/claude-flightdeck
 claude plugin install flightdeck@claude-flightdeck
 ```
 
 Or load it straight from a clone, for one session:
 
 ```sh
-git clone https://github.com/scasella/claude-flightdeck
+git clone https://github.com/rzem-ai/claude-flightdeck
 claude --plugin-dir ./claude-flightdeck
 ```
 
@@ -148,10 +148,10 @@ In `/config`, or under `pluginConfigs[<id>].options` in your user `settings.json
 **The pane doesn't appear.**
 - Check `claude --version` is 2.1.287 or later, then run `/reload-plugins` and `/flightdeck`.
 - Below 144 columns, Claude Code won't seat a pane nobody asked for; `/flightdeck` opens it at any width.
-- Look in the transcript for a dim line starting `flightdeck:`. It names the hook that failed or the reason the pane was refused. Please [open an issue](https://github.com/scasella/claude-flightdeck/issues) with it.
+- Look in the transcript for a dim line starting `flightdeck:`. It names the hook that failed or the reason the pane was refused. Please [open an issue](https://github.com/rzem-ai/claude-flightdeck/issues) with it.
 - If the pane shows only `draw failed (…)`, its drawing hook threw; include that line in the issue too.
 
-**Nothing shows in the VS Code extension.** In one report its 2.1.296 build ran Flightdeck's hooks but showed no pane, and none for another mod either ([#5](https://github.com/scasella/claude-flightdeck/issues/5)). Run `claude` in VS Code's integrated terminal instead, then `/flightdeck`: an integrated terminal is usually narrower than the 144 columns the pane needs to open by itself.
+**Nothing shows in the VS Code extension.** In one report its 2.1.296 build ran Flightdeck's hooks but showed no pane, and none for another mod either ([#5](https://github.com/rzem-ai/claude-flightdeck/issues/5)). Run `claude` in VS Code's integrated terminal instead, then `/flightdeck`: an integrated terminal is usually narrower than the 144 columns the pane needs to open by itself.
 
 **Options seem ignored.** Check the key in your user `settings.json`: `pluginConfigs["flightdeck@claude-flightdeck"]` when installed, `pluginConfigs["flightdeck"]` with `--plugin-dir`. See [Configure](#configure).
 

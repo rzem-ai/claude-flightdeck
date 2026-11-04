@@ -3,11 +3,11 @@
   "version": "0.5.1",
   "description": "Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events",
   "author": {
-    "name": "Stephen Casella",
-    "url": "https://github.com/scasella"
+    "name": "Alex Rzem",
+    "url": "https://github.com/rzem-ai"
   },
-  "homepage": "https://github.com/scasella/claude-flightdeck",
-  "repository": "https://github.com/scasella/claude-flightdeck",
+  "homepage": "https://github.com/rzem-ai/claude-flightdeck",
+  "repository": "https://github.com/rzem-ai/claude-flightdeck",
   "license": "MIT",
   "keywords": [
     "claude-code",

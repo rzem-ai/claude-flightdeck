@@ -5,7 +5,7 @@ Issues and pull requests are welcome.
 ## Set up
 
 ```sh
-git clone https://github.com/scasella/claude-flightdeck
+git clone https://github.com/rzem-ai/claude-flightdeck
 cd claude-flightdeck
 claude --plugin-dir .
 ```
